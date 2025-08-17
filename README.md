@@ -17,10 +17,10 @@ winget install git.git --source=winget
 winget install vagrant --source=winget
 
 winget search "Windows Terminal" --accept-source-agreements 
-# winget install "Windows Terminal" --source=msstore    #sajnos ezt konzolbol kell futtatni vagy így:
+winget install "Windows Terminal" --source=msstore    #sajnos ezt konzolbol kell futtatni vagy így:
 winget install "Windows Terminal" --source=msstore --accept-source-agreements --accept-package-agreements
 
-# winget install "Microsoft Visual Studio Code" --source=msstore #sajnos ezt konzolbol kell futtatni, vagy így:
+winget install "Microsoft Visual Studio Code" --source=msstore #sajnos ezt konzolbol kell futtatni, vagy így:
 winget install "Visual Studio Code" --source=msstore --accept-source-agreements --accept-package-agreements
 
 
