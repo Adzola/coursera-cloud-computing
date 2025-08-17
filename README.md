@@ -1,7 +1,34 @@
 # coursera-cloud-computing
 Repository for Coursera Cloud Computing Master
 
+**********************************************************************************************************************************************************
+Powershell ISE 
 
+#Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-HypervisorPlatform" -All
+#Get-WindowsOptionalFeature -Online -FeatureName "Microsoft-HypervisorPlatform"
+#DISM /Online /Enable-Feature /FeatureName:Microsoft-Hyper-V-All /All
+
+
+
+winget install powershell --source=winget
+
+winget install git.git --source=winget
+
+winget install vagrant --source=winget
+
+winget search "Windows Terminal" --accept-source-agreements 
+# winget install "Windows Terminal" --source=msstore    #sajnos ezt konzolbol kell futtatni vagy így:
+winget install "Windows Terminal" --source=msstore --accept-source-agreements --accept-package-agreements
+
+# winget install "Microsoft Visual Studio Code" --source=msstore #sajnos ezt konzolbol kell futtatni, vagy így:
+winget install "Visual Studio Code" --source=msstore --accept-source-agreements --accept-package-agreements
+
+
+winget install virtualbox --source=winget
+
+winget install virtualbox vagrant packer
+
+#ssh-keygen -t ed25519   #Ez se fut le így
 
 *****************************************************************************************************************************************************************
 public/private key pair
